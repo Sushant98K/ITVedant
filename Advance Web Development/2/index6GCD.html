@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Find GCD using Euclidean Algorithm</title>
+</head>
+<body>
+  <h1>Find GCD using Euclidean Algorithm</h1>
+  <p>Enter two numbers to find their GCD:</p>
+  <input id="num1" type="number" value="56">
+  <input id="num2" type="number" value="98">
+  <button onclick="findGCD()">Find GCD</button>
+  <p id="result"></p>
+
+  <script>
+    function findGCD() {
+      let x = parseInt(document.getElementById("num1").value);
+      let y = parseInt(document.getElementById("num2").value);
+      let temp;
+
+      // Apply the Euclidean algorithm
+      while (y !== 0) {
+        temp = y;
+        y = x % y;
+        x = temp;
+      }
+
+      document.getElementById("result").innerHTML = `The GCD of ${document.getElementById("num1").value} and ${document.getElementById("num2").value} is ${x}`;
+    }
+  </script>
+</body>
+</html>
