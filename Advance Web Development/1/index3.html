@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let n = 156;
+
+      let sum = 0;
+      let digit1 = n / 100;
+      let digit2 = (n % 100) / 10;
+      let digit3 = n % 10;
+
+      digit1 = digit1 - (digit1 % 1);
+      digit2 = digit2 - (digit2 % 1);
+      digit3 = digit3 - (digit3 % 1);
+
+      sum = digit1 + digit2 + digit3;
+
+      console.log(sum);
+    </script>
+  </head>
+  <body></body>
+</html>
