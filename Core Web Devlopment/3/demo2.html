@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Profile</title>
+</head>
+
+<body>
+<center>
+    <h1>Create Profile</h1>
+    <form>
+        <table>
+            <tr>
+                <td><b> Name:</b></td>
+                <td><input type="text" name="firstName" placeholder="First Name" /></td>
+            </tr>
+            <tr>
+                <td><b>Last Name:</b></td>
+                <td><input type="text" name="lastName" placeholder="Last Name" /></td>
+            </tr>
+            <tr>
+                <td><b>Date of Birth:</b></td>
+                <td><input type="date" name="dateOfBirth" placeholder="dd/mm/yyyy" /></td>
+            </tr>
+            <tr>
+                <td><b>Enter age:</b></td>
+                <td><input type="number" name="age" placeholder="Age" /></td>
+            </tr>
+            <tr>
+                <td><b>Gender:</b></td>
+                <td>
+                    <input type="radio" name="gender" value="male" checked /> Male
+                    <input type="radio" name="gender" value="female" /> Female
+                </td>
+            </tr>
+            <tr>
+                <td><b>Current Address:</b></td>
+                <td><textarea rows="10" cols="40" name="currentAddress"></textarea></td>
+            </tr>
+            <tr>
+                <td><b>Permanent Address:</b></td>
+                <td><textarea rows="10" cols="40" name="permanentAddress"></textarea></td>
+            </tr>
+        </table>
+        <button type="submit">Create</button>
+    </form>
+</center>
+</body>
+
+</html>

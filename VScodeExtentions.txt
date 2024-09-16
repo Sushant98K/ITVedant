@@ -1,0 +1,76 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.cursorBlinking": "expand",
+  "editor.fontFamily": "jetbrains mono, Consolas, 'Courier New', monospace",
+  "files.autoSave": "afterDelay",
+  "editor.minimap.renderCharacters": false,
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "javascriptreact"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": false,
+  "better-comments.tags": [
+    {
+      "tag": "TODO:",
+      "color": "#EA580C",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "FIXME:",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "BUG:",
+      "color": "#9333EA",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "HACK:",
+      "color": "#C026D3",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "NOTE:",
+      "color": "#2563EB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "INFO:",
+      "color": "#0EA5E9",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "IDEA:",
+      "color": "#FFF",
+      "strikethrough": false,
+      "backgroundColor": "#EAB308"
+    }
+  ],
+  "workbench.iconTheme": "helium-icon-theme",
+  "workbench.colorTheme": "Material Theme Ocean",
+  "tabnine.experimentalAutoImports": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true
+}
