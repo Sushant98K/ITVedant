@@ -1,3 +1,26 @@
+Auto rename tag by Jun Han
+Better Comments by Aaron Bond
+Code Runner by Jun Han
+code Spell Checker by Street Side Software
+CodeSnap by adpyke
+Draw.io Integration by Henning Dieterichs
+Error Lens by Alexander
+ES7+ React/Redux/React-Native snippests by dsznajder
+Headwind by Ryan Heybourn
+Helium Icon Theme by Helgard Richard Ferreira
+Live Server by Ritwick Dey
+Material Theme by Equinusocio
+Prettier - code formatter by Prettier
+Prisma by Prisma
+readme-preview by Manish Sencha 
+SVG-Viewer by Dheovani
+Tabnine-ai chat by TabNine
+Tailwind css IntelliSense by TailwindLabs
+vscode-pdf by tomoki1207
+
+
+// setting.json file
+
 {
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
