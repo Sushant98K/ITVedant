@@ -4,10 +4,10 @@
 
 # ITVedant Assignments
 
-Sorce code for solved questions. Document with pdf format example to how to solve questions
+Sorce code for solved questions. Document with pdf format examples
 
 
 ## Support
 
-For support, email sushant98@gmail.com or join our Discord channel.
+For support, email sushant98k@gmail.com or join our Discord channel.
 
