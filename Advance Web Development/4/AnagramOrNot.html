@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let str1 = "cat"
+        let str2 = "act"
+
+        function areAnagram(str1, str2) {
+            str1 = str1.toLowerCase()
+            str2 = str2.toLowerCase()
+
+            let sortedstr1 = str1.split('').sort().join('')
+            let sortedstr2 = str1.split('').sort().join('')
+
+            if(sortedstr1 == sortedstr2) {
+                console.log("anagram")
+            }
+            else {
+                console.log("not anagram")
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
