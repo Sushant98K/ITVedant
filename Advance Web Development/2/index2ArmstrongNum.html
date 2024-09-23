@@ -5,7 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <script></script>
+    <script>
+      let num = 153;
+
+      let sum,
+        str = toString(num);
+      for (i = 0; i < str.length; i++) {
+        sum += Math.plow(str[i], 3);
+      }
+      if (sum == num) {
+        console.log(`${num} is armstrong number `);
+      } else {
+        console.log(`${num} is not a armstrong number `);
+      }
+    </script>
   </head>
   <body></body>
 </html>
