@@ -1,0 +1,11 @@
+label,
+input,
+button {
+  display: flex;
+  align-items: center;
+}
+.container {
+  background-color: cyan;
+  width: 250px;
+  height: 150px;
+}
