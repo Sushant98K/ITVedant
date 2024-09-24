@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function displayDate() {
+        let today = new Date();
+        let dateString = today.toDateString();
+        document.querySelector(".output").textContent = dateString;
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <input type="button" value="Fetch Date" onclick="displayDate()" />
+      <p class="output"></p>
+    </div>
+  </body>
+</html>
