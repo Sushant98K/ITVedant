@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function isPalindrome(str) {
+        // Convert to lowercase
+        const cleanedStr = str.toLowerCase();
+
+        // Compare the cleaned string with its reverse
+        cleanedStr === cleanedStr.split("").reverse().join("")
+          ? console.log(`"${input}" is a palindrome.`)
+          : console.log(`"${input}" is not a palindrome.`);
+      }
+      
+      let input = "mom";
+      isPalindrome(input);
+    </script>
+  </body>
+</html>
