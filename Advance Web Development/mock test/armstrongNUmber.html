@@ -4,21 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+  </head>
+  <body>
     <script>
-      let num = 153;
-
-      let sum,
-        str = toString(num);
+      // Find Armstrong number
+      let n = 153;
+      let sum = 0;
+      let str = toString(n);
       for (i = 0; i < str.length; i++) {
         sum += Math.pow(str[i], 3);
       }
-      if (sum == num) {
-        console.log(`${num} is armstrong number `);
-      } else {
-        console.log(`${num} is not a armstrong number `);
-      }
+
+      sum == n
+        ? console.log(`${n} is not an Armstrong number`)
+        : console.log(`${n} is Armstrong Number`);
     </script>
-  </head>
-  <body></body>
+  </body>
 </html>
