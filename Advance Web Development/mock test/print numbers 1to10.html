@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function printNo(n) {
+        if (n <= 10) {
+          console.log(n);
+          printNo(n + 1);
+        }
+      }
+      printNo(1);
+    </script>
+  </body>
+</html>
