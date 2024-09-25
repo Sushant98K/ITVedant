@@ -8,16 +8,16 @@
     <script>
       let num = 153;
 
-      let sum,
-        str = toString(num);
+      let sum = 0;
+      let str = num.toString();
+      let l = str.length;
       for (i = 0; i < str.length; i++) {
-        sum += Math.pow(str[i], 3);
+        let temp = str[i];
+        sum += Math.pow(parseInt(temp), l);
       }
-      if (sum == num) {
-        console.log(`${num} is armstrong number `);
-      } else {
-        console.log(`${num} is not a armstrong number `);
-      }
+      num == sum
+        ? console.log(`${num} is Armstrong Number`)
+        : console.log(`${num} is Not an Armstrong Number`);
     </script>
   </head>
   <body></body>

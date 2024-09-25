@@ -10,14 +10,13 @@
       // Find Armstrong number
       let n = 153;
       let sum = 0;
-      let str = toString(n);
+      let str = n.toString();
       for (i = 0; i < str.length; i++) {
         sum += Math.pow(str[i], 3);
       }
-
-      sum == n
-        ? console.log(`${n} is not an Armstrong number`)
-        : console.log(`${n} is Armstrong Number`);
+      n == sum
+        ? console.log(`${n} is Armstrong number`)
+        : console.log(`${n} is not an Armstrong number`);
     </script>
   </body>
 </html>
