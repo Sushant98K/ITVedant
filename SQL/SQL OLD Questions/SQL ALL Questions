@@ -1,0 +1,214 @@
+SQL QUESTIONS 
+1.	Write a Query to display name of the employee. 
+2.	Write a Query to display ename and salary of all employee. 
+3.	Write a Query to display department name and its location for all the department. 
+4.	Write a Query to display name, salary, commission and date of joining of every employee. 
+5.	Write a Query to display employee name, his designation and his manager’s employee number. 
+6.	Write a Query to display employee name and his department number. 
+7.	Write a Query to display all the details of each and every employee of the company. 
+8.	Write a Query to display all the details of department present in company. 
+9.	Write a Query to display employee name, his employee number, his salary and also his annual salary for every employee. 
+10.	Write a Query to display employee name, his employee number and salary with the hike of 30% for every employee. 
+11.	Write  a Query to display the details of employee in the following format:- 
+    A]	Employee x earns a monthly salary of rupees. Y. 
+    B]	Employee x earns a monthly salary of rupees. Y and annual salary of rupee z. 
+    C]	The department x bearing department number y is located in z 
+12.	Write a Query to display name of the employee with annual salary with a monthly bonus of 200 and provide suitable alias name. 
+13.	Write a Query to display name, salary along with annual salary of employee with yearly bonus of 1000. 
+14.	Write a Query to select all the salary of employee of the salary is greater than 1500. 
+15.	Write a Query to display employee name, his hire date, his salary and annual salary only if his annual salary greater than 10000. 
+16.	Write a Query to display all the details of employee if the department number is 20. 
+17.	Write a Query to display all the details of the employee if designation is Manager. 
+18.	Write a Query to display all the details of employee only if they were hired after the year 1995. 
+19.	Write a Query to display all the details of employee only if his commission is greater than his salary. 
+20.	Write a Query to display all the details of employee only if his designation is clerk. 
+21.	Write a Query to display depart name, depart number for all the department which is located in BOSTON. 
+22.	Write a Query to display all the details of employee only if he belongs to depart number 10 and salary is greater than 2000. 
+23.	Write a Query to display Ename, salary, annual salary with the hike of 25% only if he is a clerk and his date of hire is after 16th of June 1982. 
+24.	Write a Query to display all the details of employee only if annual salary is greater than 15000 and his commission is greater than his salary. 
+25.	Write a Query to display all the details of department only if department number is 10 or name of department is 
+RESEARCH. 
+26.	Write a Query to display employee name and his employee number and his hired date and salary with reduction of 20% only if his salary is greater than 2500 of his department number is 10. 
+27.	Write a Query to display all the details of employee, if they have joined the company before 1985 or his salary is greater than 2500. 
+28.	Write a Query to display all the details of employee who belongs to department number is 10 or 20 and salary greater than 2000. 
+29.	Write a Query to display all the details of employee if he is working as a salesman or analyst and department number either 10 or 20 and salary should be greater than 2000. 
+30.	Write a Query to display all the details of employee who is working as SALESMAN or ANALYST. 
+31.	Write a Query to display all the details of employee if he working either salesman or clerk and salary greater than 
+ 
+3000 or not equal to 2500 and department number either 30, 10, 40. 
+ 
+32.	Write a Query to display employee name, job, commission, depart number, existing salary, new salary with the reduction of 35% only if job not equal to check and depart number either 10, 20, 30. Hireddate greater than 1983 and commission should be less than salary. 
+33.	Write a Query to display all the details of employee if the salary ranges between 500 and 250 and department number either 10, 20, 30. 
+34.	Write a Query to display all the employee who belongs to department number 10 or 20 and comm between 1000 and 3000 and were hired during 1980 to 1983. 
+35.	Write a Query to display all the details of employee if he is not having the reporting manager. 
+36.	Write a Query to display all the employee who don’t take comm. 
+37.	Write a Query to select a name which begins with ‘A’. 
+38.	Write a Query to select a name which begins with ‘A’ and ends with ‘A’. 
+39.	Write a Query to select the name which is having atleast 2 ‘A’ in it. 
+40.	Write a Query to select the name which starts with ‘M’. 
+41.	Write a Query to match name to select string which is having substring MAD. 
+42.	Write a Query to select name which is having substring NA atleast twice. 
+ 
+43.	Write a Query to display all the employee’s whose name is having ‘R’ as the second last character. 
+44. 	List all the employee whose name starts with ‘S’. 
+45. 	List all the employee whose name is having letter ‘L’ as second character. 
+46. 	List all the employee whose name is having atleast 2 
+L’s in it. 
+47. 	List all the employee whose name having letter ‘E’ as the last but one character. 
+48. 	List all the employee whose name is having letter ‘R’ in the 3rd position. 
+49. 	List all the employee who are having exactly 5 character in their jobs. 
+50. List the employee where salary is between 2000 and 3000. 
+51. 	List the employee whose comm is NULL. 
+52. 	List all the employee who don’t have a reporting manager. 
+53. 	List all the salesman in department number 30. 
+54. 	List all the salesman in department number 30 and having salary greater than 5000. 
+55. List all the employees whose name starts with ‘S’ or ‘A’. 
+56. 	List all the employees except those who are working in department number 10 and 20. 
+57.	List all the employees whose name doesn’t start with 
+‘S’. 
+ 
+58.	List all the employees who are having reporting manager in department 10. 
+59. 	Write a Query to display all the details of the employee if their job is having one _ (underscore) in it. 
+60. 	Write a Query to display who are having % in their names. 
+61. 	Write a Query to display who are having _(underscore) as second character in their name. 
+62. 	Write a Query to display who are having atleast 2 ‘_’ in their name. 
+63. 	Write a Query to display all the employee who are getting 2500 and excess salaries’ in department number 20. 
+64. 	Write a Query to display all the manager working in depart number 20 and 30. 
+65. 	Write a Query to display all the employees whose job is manger, who don’t have reporting manager. 
+66. 	Write a Query to display all the employee who are getting some comm with their designation is neither manager nor analyst. 
+67. 	Write a Query to display all the manager whose annual salary is ending with 0. 
+68. 	Write a Query to display all the employee who are clerk and analyst with salary greater than 1000. 
+ 
+69.	Write a Query to display all the employees having ‘E’ as the last but one character in employee name but salary having atleast 4 character. 
+70.	Write a Query to display all the employee who are joined after year 81. 
+71.	Write a Query to display all the employees who are joined in Feb. 
+72.	List the employee who are not working as manager and clerk in depart no 10 and 20 with salary in the range of 1000 to 3000. 
+73.	List the employees whose salary not in the range of 1000 to 2000 in depart no 10, 20, 30 except all salesman. 
+74.	List the depart names who are having letter ‘O’ in their locations as well as their depart names. 
+75.	Write a Query to display all the employees whose job has string ‘MAN’ in it. 
+76.	Write a Query to display all the details of employees in descending order. 
+77.	Write a Query to display all the EMP name in ascending order. 
+78.	Write a Query to display the employee name in order by clause salary for all the employee and display the result in descending order of their annual salary. 
+79.	Write a Query to display ename and his salary and display them according to hired date. 
+80.	Write a Query to display all the details of employee who are neither salesman nor analyst salary should be greater than 1000 in descending order for their departno. 
+81.	Write a Query to display ename, manager, hired date, salary,new salary with hike 25% for all the employee whose name does not start with A or B short the result in ascending order with new salary. 
+82.	Write a Query to display departno and dname of all the department and display in ascending order of their location. 
+83.	Write a Query to display all the details of employee only if the salary is not between 2000 and 3000 order by their department number in ascending order,employee number in ascending order. 
+84.	Write a Query to display maximum salary, minimum salary and average salary of the organization by excluding employees who is working as salesman. 
+85.	Write a Query to display number of employees by their total salary who are working in department number 20,30. 
+86.	Write a Query to display max salary,min salary only if the name is start with A or S or M. 
+87.	Write a Query to display number of employee in department number 30 working as salesman. 
+88.	Write a Query to display average salary given to the manager of the organization. 
+89.	Write a query to display number of employee department number 10 and number of employee in department number 30. 
+90.	Write a Query to display total salary and average salary for every department. 
+91.	Write a Query to display max sal and min sal in each designation. 
+92.	Write a Query to display total salary of every department by excluding employee whose salary is greater than 3000. 
+93.	Write a Query to display job wise max salary in each department. 
+94.	Write a Query to display department number of more than 4 employees. 
+95.	Write a Query to display jobwise highest salary only if the highest salary is more than 1500. 
+96.	Write a Query to display jobwise highest salary only if the highest salary is more than 1500 excluding department number 30 sort the database on highest salary in ascending order. 
+97.	Write a Query to display department number along with number of employees in it. 
+98.	Write a Query to display the department number which are having more than 4 employee in them. 
+99.	Write a Query to display the max salary for each of the job excluding all the employee whose name end with S. 100.	Write a Query to display the department number which are having more than 9000 as their departmental total salary. 
+101.	Write a Query to display department wise highest salary only if the highest salary in between 5000 and 10000 and total salary of department is below 10000. 
+102.	Write a Query to display jobwise total salary in each department only if department number 10, 20 total salary is less than 10000. 
+103.	Write a Query to display average salary of each department by excluding all employees who do not have reporting manager. 
+104.	Write a Query to display max, min, cum, average, commission and salaries for all the department which is having employee hired within 1980 and 1985. 
+105.	Write a Query to display max salary and total salary of each department by considering all the employee whose job is not ‘_’ character in it and total salary of department should not be equal than 5000 and should not be less than or equal to  9000. 
+106.	Write a Query to display all the details of employee whose designation is same as martin. 
+107.	Write a Query to display all the employee who were hired after recruiting miller. 
+108.	Write a Query to display all the detail of employee whose salary is greater than adam’s salary and less than scott’s salary. 
+109.	Write a Query to display name of an employee along with the annual salary if the employee is working in network. 
+110.	Write a Query to display all the details of employee who are working in same department of smith or allen. 
+111.	List the employee whose salary is greater than allen. 
+112.	List the department name that are having analyst. 
+113.	List the department name which are having salesman in it. 
+114.	Write a Query to display the employee whose location is having atleast one O. 
+115.	List the department name that are having atleast one employee in it. 
+116.	List the department name that are having 4 employee in it. 
+117.	Write a Query to display the department name which are having atleast 2 clerk in it. 
+118.	List the department name that are having no employee at all. 
+119.	Write a Query to display all the employee whose job is same as scott. 
+120.	Write a Query to display scott’s manager’s department name. 
+121.	List employee whose job is same as scott and salary is greater than smith salary. 
+122.	Write a Query to display all the employee who are actual manager. 
+ 
+123.	Write a Query to display who are all employee reporting to scott. 
+ 
+124.	Write a Query to display all the employee whose job is same as scott and allen. 
+125. Write a Query to display the second maximum salary. 
+126. 	Write a Query to display the third maximum salary. 
+127. 	Write a Query to display all the employees who are earning more than all the managers. 
+128. 	Write a Query to display all the employees who are earning more than any of the managers. 
+129. 	Select empno, job and salary of all the analyst who are earning more than any of the manager. 
+130. 	Select the department name and location of all the employee working for clark. 
+131. 	Write a Query to display ename, empno, and his dname and loc and also his annual salary for all the employees, who are working as salesman or dark in loc, New York or Chicago or Boston. 
+132. 	Write a Query to display empno, sal with the hike of 35% his department name, location and departno of the employee whose salary is greater than Allen’s salary and he should be working in either NEWYORK or CHICACO. 
+133. 	Write a Query to display to display Ename, Dname only if the Dname is having atleast one ‘O’ of the name of the employee is having ‘E’ as the second last character. 
+134.	Display Ename, JOB, Dname, loc of all the Managers and clerks who are working in accounts and sales department. 
+135.	Display Ename, sal, Dname of all the salesman who are not located at DALLAS. 
+136.	Write a Query to display Ename,Dname only if the department name having atleast one ‘O’ or the name of the employee is having ‘E’ as the second last character. 
+137.	Display Ename, job,Dname, Loc of all the managers and clerks who works in accounts and sales department. 
+138.	Display Ename,Sal, and Dname of all the salesman who are not located at the last. 
+139.	SELECT Ename and location of all the employees who work in DALLAS. 
+140.	Select Ename, Dname and location of all the employees who are working for clerk. 
+141.	Select Ename, job, Departmental information for all the actual manager. 
+142.	Write a Query to display employee who is not working in any department. 
+143.	Write a Query to display the number of department which has employees. 
+144.	Write a Query to display the number of departments which don’t have employees. 
+145.	Write a Query to display Dname which is having atleast one employee in it. 
+146.	Write a Query to display Dname which has no employees. 
+ 
+147.	Display the names of the reporting manager who don’t have a reporting manager. 
+148. 	Write a Query to display who is having atleast 2 reporting manager. 
+149. 	Write a Query to display Dname which is having employee hired on the same date. 
+150. 	Write a Query to display who are hired after smith and his department should have more than 4 employees. 
+151. 	Write a Query to display Ename, his manager name. 
+152. 	Write a Query to display Ename, his hired date, his manager name and his manger hired date only if both were hired on the same date. 
+153. 	Write a Query to display the name of the employee along with the manager name and only if his manager was hired on after him. 
+154. 	Write a Query to display Ename and his manager name only if both are working in same location. 
+155. 	Write a Query to display names of all the employees, salary should be same as scott salary. 
+156. 	Write a Query to display names of the employees who are working in same department as ALLENS. 
+157. 	Write a Query to display name of an employee who was hired, where Ford was hired. 
+158. 	Write a Query to display employees who don’t have report manager. 
+159.	Write a Query to display an employee, who is not acting as a reporting manager. 
+ 
+160.	Write a Query to display name of an employee, who is a reporting manager? Doesn’t have a reporting manager. 
+161. 	Write a Query to display a Dname, which has atleast one employee in it. 
+162. 	Write a Query to display a Dname which has no Employee in it. 
+163. 	Write a Query to display details of Reporting Manager. 
+164. 	Write a Query to display all the details of Employee who are not acting like reporting managers.(using joins) 
+165. 	Write a Query to display the name of the employee who has atleast 3 employees reporting to him. 
+166. 	Write a Query to display all the details of the employee whose salary is equal to first max salary. 
+167. 	Write a Query to display the details of employee, if his salary is either 4th or 7th maximum. 
+168. 	Write a Query to display the names of the employees whose sal comes in the top 4th max salary. 
+169. 	Write a Query to display bottom 10th max salary or least 10th max salary or least 10th max salary. 
+170. 	Write a Query to display all the details of employee if the first character in their name is a vowel. 
+171. 	Write a Query to display all the details of the employee only if their last character is a consonants. 
+172.	Write a Query to display all the names of the employee only, if their name starts with vowel and their location ends with vowel. 
+173.	Write a Query to display all the details of employees, only if he has atleast 2L’s in his names.(without using like) 
+174.	Write a Query to display all the names of employees, whose Job is having last character of their names. 
+175.	Write a Query to display all the details of employees, if the employee name has first or last character of his location. 
+176.	Write a Query to display all the details of the employees only if the middle character of JOB present in first half of the employee name. 
+177.	Write a Query to display all the employees only if he has exactly 2R’s in his name. 
+178.	Write a Query to display all the details of the employee, in such a way that name of the employee ending with a vowel replace with the character ‘*’. 
+179.	Write a Query to display all the employees, their names, their Job and their salary. If their annual salary is greater than 50k don’t display the Job. 
+180.	Write a Query to display all the details of the employees whose name start with a vowel and his salary is greater than his salary. 
+181.	Write a Query to display all the details of employees only if an employee’smanager’s manager doesn’t have a reporting manager and he belongs to Deptno 10 or 20. 
+182.	Write a Query to display how many times salary should be repeated in a table. 
+ 
+183.	Write a Query to display duplicate names in an employee table. 
+184. 	Write a Query to display the name of the department which has more than 2 reporting manager. 
+185. 	Write a Query to display employee Ename such that first half is in UPPERCASE and second half in LOWERCASE, only if he belongs to research or accounting else replace first and last character of his name with ‘$’. 
+186. 	Write a Query to display all the details of employees only if their annual salaries are even. 
+187. 	Write a Query to obtain the number of years of experience a employee as in current company. 
+188. 	Write a Query to display all the details of employees who are hired on 10 or 15 of FEB and DEC any year and salary greater than 2000. 
+189. 	Write a Query to display retirement date of Smith, if he would retire in 2 years from today. 
+190. 	Write a Query to display number of years of experience in the organization. 
+191. 	Write a Query to find out number of days left in the current month. 
+192. 	Write a Query to display all the employees, who are hired on FRIDAY after MARCH, before November any Year. 
+193.	Write a Query to display all the details of employee, who are hired in alternative weeks starting Monday. 
+ 
+194.	Write a Query to obtain total salary of an employee, where total salary is (Monthly sal + Incentives). 
+ 
+
