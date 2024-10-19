@@ -1,22 +1,51 @@
+use emp_db;
+select * from Worker;
+select * from Bonus;
+select * from Title;
+
 -- Q-1. Write An SQL Query To Fetch “FIRST_NAME” From Worker Table Using The Alias Name As <WORKER_NAME>.
+select FIRST_NAME as WORKER_NAME 
+from worker;
 
 -- Q-2. Write An SQL Query To Fetch “FIRST_NAME” From Worker Table In Upper Case.
+select upper(FIRST_NAME) 
+from worker;
 
 -- Q-3. Write An SQL Query To Fetch Unique Values Of DEPARTMENT From Worker Table.
+select distinct(department) 
+from worker;
 
 -- Q-4. Write An SQL Query To Print First Three Characters Of FIRST NAME From Worker Table.
+select substr(first_name,1,3) 
+from worker;
 
 -- Q-5. Write An SQL Query To Find The Position Of The Alphabet (‘A’) In The First Name Column ‘Amitabh’ From Worker Table.
+select instr('Amitabh','A');
 
 -- Q-6. Write An SQL Query To Print The FIRST_NAME From Worker Table After Removing White Spaces From The Right Side.
+select RTRIM(FIRST_NAME) 
+from worker;
 
 -- Q-7. Write An SQL Query To Print The DEPARTMENT From Worker Table After Removing White Spaces From The Left Side.
+select LTRIM(DEPARTMENT) 
+from worker;
 
 -- Q-8. Write An SQL Query That Fetches The Unique Values Of DEPARTMENT From Worker Table And Prints Its Length.
+select distinct(DEPARTMENT) , length(department) length
+from worker;
+
+-- or
+
+select distinct length(department) 
+from worker; 
 
 -- Q-9. Write An SQL Query To Print The FIRST_NAME From Worker Table After Replacing ‘A’ With ‘A’.
+select replace(FIRST_NAME,'A','A') 
+from worker;
  
 -- Q-10. Write An SQL Query To Print The FIRST NAME And LAST_NAME From Worker Table Into A SingleColumn COMPLETE_NAME. A Space Char Should Separate Them.
+select concat(first_name, " ", last_name) COMPLETE_NAME 
+from worker;
 
 -- Q-11. Write An SQL Query To Print All Worker Details From The Worker Table Order By FIRST_NAME Ascending.
 
