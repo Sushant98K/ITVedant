@@ -240,19 +240,55 @@ group by department
 having count(*) > 5;
 
 -- Q-41. Write An SQL Query To Show All Departments Along With The Number Of People In There.
+select count(worker_id), department from worker 
+group by department; 
 
 -- Q-42. Write An SQL Query To Show The Last Record From A Table.
+select * from worker
+order by worker_id desc
+limit 1;
+-- or
+select * from worker
+where worker_id = (select max(worker_id) from worker);
 
 -- Q-43. Write An SQL Query To Fetch The First Row Of A Table.
+select * from worker
+limit 1;
 
 -- Q-44. Write An SQL Query To Fetch The Last Five Records From A Table.
+select * from worker
+order by worker_id desc
+limit 5;
+-- or
+select * from (	select * from worker 
+				order by worker_id desc 
+                limit 5) as last_five
+order by worker_id;
 
 -- Q-45. Write An SQL Query To Print The Name Of Employees Having The Highest Salary In Each Department.
+select first_name,department,salary from worker
+where salary in (select max(salary) from worker group by department);
 
 -- Q-46. Write An SQL Query To Fetch Three Max Salaries From A Table.
+select distinct salary from worker
+order by salary desc
+limit 3;
 
 -- Q-47. Write An SQL Query To Fetch Three Min Salaries From A Table.
+select distinct salary from worker
+order by salary
+limit 3;
 
--- Q-48. Write An SQL Query To Fetch Nth Max Salaries From A Table. Q-49. Write An SQL Query To Fetch Departments Along With The Total Salaries Paid For Each Of Them.
+-- Q-48. Write An SQL Query To Fetch Nth Max Salaries From A Table.
+select salary from worker
+order by salary desc
+limit 1 offset N-1;
+
+-- Q-49. Write An SQL Query To Fetch Departments Along With The Total Salaries Paid For Each Of Them.
+select sum(salary), department from worker
+group by department;
 
 -- Q-50. Write An SQL Query To Fetch The Names Of Workers Who Earn The Highest Salary.
+select * from worker
+order by salary desc
+limit 1;
