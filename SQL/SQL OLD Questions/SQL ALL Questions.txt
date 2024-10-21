@@ -132,11 +132,9 @@ L’s in it.
 120.	Write a Query to display scott’s manager’s department name. 
 121.	List employee whose job is same as scott and salary is greater than smith salary. 
 122.	Write a Query to display all the employee who are actual manager. 
- 
 123.	Write a Query to display who are all employee reporting to scott. 
- 
 124.	Write a Query to display all the employee whose job is same as scott and allen. 
-125. Write a Query to display the second maximum salary. 
+125.    Write a Query to display the second maximum salary. 
 126. 	Write a Query to display the third maximum salary. 
 127. 	Write a Query to display all the employees who are earning more than all the managers. 
 128. 	Write a Query to display all the employees who are earning more than any of the managers. 
@@ -158,7 +156,6 @@ L’s in it.
 144.	Write a Query to display the number of departments which don’t have employees. 
 145.	Write a Query to display Dname which is having atleast one employee in it. 
 146.	Write a Query to display Dname which has no employees. 
- 
 147.	Display the names of the reporting manager who don’t have a reporting manager. 
 148. 	Write a Query to display who is having atleast 2 reporting manager. 
 149. 	Write a Query to display Dname which is having employee hired on the same date. 
@@ -172,7 +169,6 @@ L’s in it.
 157. 	Write a Query to display name of an employee who was hired, where Ford was hired. 
 158. 	Write a Query to display employees who don’t have report manager. 
 159.	Write a Query to display an employee, who is not acting as a reporting manager. 
- 
 160.	Write a Query to display name of an employee, who is a reporting manager? Doesn’t have a reporting manager. 
 161. 	Write a Query to display a Dname, which has atleast one employee in it. 
 162. 	Write a Query to display a Dname which has no Employee in it. 
@@ -196,7 +192,6 @@ L’s in it.
 180.	Write a Query to display all the details of the employees whose name start with a vowel and his salary is greater than his salary. 
 181.	Write a Query to display all the details of employees only if an employee’smanager’s manager doesn’t have a reporting manager and he belongs to Deptno 10 or 20. 
 182.	Write a Query to display how many times salary should be repeated in a table. 
- 
 183.	Write a Query to display duplicate names in an employee table. 
 184. 	Write a Query to display the name of the department which has more than 2 reporting manager. 
 185. 	Write a Query to display employee Ename such that first half is in UPPERCASE and second half in LOWERCASE, only if he belongs to research or accounting else replace first and last character of his name with ‘$’. 
