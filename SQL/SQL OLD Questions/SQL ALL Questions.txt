@@ -75,7 +75,7 @@ L’s in it.
 63. 	Write a Query to display all the employee who are getting 2500 and excess salaries’ in department number 20. 
 64. 	Write a Query to display all the manager working in depart number 20 and 30. 
 65. 	Write a Query to display all the employees whose job is manger, who don’t have reporting manager. 
-66. 	Write a Query to display all the employee who are getting some comm with their designation is neither manager nor analyst. 
+66. Write a Query to display all the employee who are getting some comm with their designation is neither manager nor analyst. 
 67. Write a Query to display all the manager whose annual salary is ending with 0. 
 68. Write a Query to display all the employee who are clerk and analyst with salary greater than 1000. 
  
