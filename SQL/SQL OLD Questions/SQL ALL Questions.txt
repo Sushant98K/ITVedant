@@ -78,7 +78,6 @@ L’s in it.
 66. Write a Query to display all the employee who are getting some comm with their designation is neither manager nor analyst. 
 67. Write a Query to display all the manager whose annual salary is ending with 0. 
 68. Write a Query to display all the employee who are clerk and analyst with salary greater than 1000. 
- 
 69.	Write a Query to display all the employees having ‘E’ as the last but one character in employee name but salary having atleast 4 character. 
 70.	Write a Query to display all the employee who are joined after year 81. 
 71.	Write a Query to display all the employees who are joined in Feb. 
