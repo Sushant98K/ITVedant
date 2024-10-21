@@ -208,7 +208,4 @@ L’s in it.
 191. 	Write a Query to find out number of days left in the current month. 
 192. 	Write a Query to display all the employees, who are hired on FRIDAY after MARCH, before November any Year. 
 193.	Write a Query to display all the details of employee, who are hired in alternative weeks starting Monday. 
- 
 194.	Write a Query to obtain total salary of an employee, where total salary is (Monthly sal + Incentives). 
- 
-
