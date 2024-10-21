@@ -6,18 +6,13 @@ USE FUNCTIONS ONLY
 5. List employees whose job is having first 3 characters as 'man'.
 6. Display all the names whose name is having exactly 1 'L'
 7. Display dept names which are having letter 'O'
-8. Display the output as shown below,
-   Scott working as a clerk earns 3000 in dept 20
+8. Display the output as shown below, Scott working as a clerk earns 3000 in dept 20
 9. Calculate number of L in string 'HELLLLL'
 10. Display all the employees whose job has a string 'MAN'
 11. Display all the employees whose job starts with string 'MAN'
 12. Display all the employees whose job ends with string 'MAN'
-13. Display first 3 characters of ename in lower case and rest everything in upper case.
-If ename is 'QSPIDERS' then display  this as ‘qspIDERS’
-14. Display the result from emp table as below.
-SMITH is a CLERK and gets salary 2000 
-Here SMITH is ename column, CLERK is JOB and 2000 is SAL column and rest everything is literal strings.
+13. Display first 3 characters of ename in lower case and rest everything in upper case.If ename is 'QSPIDERS' then display  this as ‘qspIDERS’
+14. Display the result from emp table as below.SMITH is a CLERK and gets salary 2000 Here SMITH is ename column, CLERK is JOB and 2000 is SAL column and rest everything is literal strings.
 15.list the employees hired on a Wednesday
 16.list the employees hired on a leap year
 17.list the employees hired on a Sunday in the month of may
-
