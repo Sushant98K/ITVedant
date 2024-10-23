@@ -26,8 +26,7 @@ SQL QUESTIONS
 22.	Write a Query to display all the details of employee only if he belongs to depart number 10 and salary is greater than 2000. 
 23.	Write a Query to display Ename, salary, annual salary with the hike of 25% only if he is a clerk and his date of hire is after 16th of June 1982. 
 24.	Write a Query to display all the details of employee only if annual salary is greater than 15000 and his commission is greater than his salary. 
-25.	Write a Query to display all the details of department only if department number is 10 or name of department is 
-RESEARCH. 
+25.	Write a Query to display all the details of department only if department number is 10 or name of department is RESEARCH. 
 26.	Write a Query to display employee name and his employee number and his hired date and salary with reduction of 20% only if his salary is greater than 2500 of his department number is 10. 
 27.	Write a Query to display all the details of employee, if they have joined the company before 1985 or his salary is greater than 2500. 
 28.	Write a Query to display all the details of employee who belongs to department number is 10 or 20 and salary greater than 2000. 
