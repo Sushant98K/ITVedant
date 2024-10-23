@@ -32,10 +32,7 @@ SQL QUESTIONS
 28.	Write a Query to display all the details of employee who belongs to department number is 10 or 20 and salary greater than 2000. 
 29.	Write a Query to display all the details of employee if he is working as a salesman or analyst and department number either 10 or 20 and salary should be greater than 2000. 
 30.	Write a Query to display all the details of employee who is working as SALESMAN or ANALYST. 
-31.	Write a Query to display all the details of employee if he working either salesman or clerk and salary greater than 
- 
-3000 or not equal to 2500 and department number either 30, 10, 40. 
- 
+31.	Write a Query to display all the details of employee if he working either salesman or clerk and salary greater than 3000 or not equal to 2500 and department number either 30, 10, 40. 
 32.	Write a Query to display employee name, job, commission, depart number, existing salary, new salary with the reduction of 35% only if job not equal to check and depart number either 10, 20, 30. Hireddate greater than 1983 and commission should be less than salary. 
 33.	Write a Query to display all the details of employee if the salary ranges between 500 and 250 and department number either 10, 20, 30. 
 34.	Write a Query to display all the employee who belongs to department number 10 or 20 and comm between 1000 and 3000 and were hired during 1980 to 1983. 
