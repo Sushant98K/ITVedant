@@ -52,7 +52,7 @@ SQL QUESTIONS
 48. List all the employee whose name is having letter ‘R’ in the 3rd position. 
 49. List all the employee who are having exactly 5 character in their jobs. 
 50. List the employee where salary is between 2000 and 3000. 
-51. 	List the employee whose comm is NULL. 
+51. List the employee whose comm is NULL. 
 52. 	List all the employee who don’t have a reporting manager. 
 53. 	List all the salesman in department number 30. 
 54. 	List all the salesman in department number 30 and having salary greater than 5000. 
