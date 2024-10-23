@@ -43,8 +43,7 @@ SQL QUESTIONS
 39.	Write a Query to select the name which is having atleast 2 ‘A’ in it. 
 40.	Write a Query to select the name which starts with ‘M’. 
 41.	Write a Query to match name to select string which is having substring MAD. 
-42.	Write a Query to select name which is having substring NA atleast twice. 
- 
+42.	Write a Query to select name which is having substring NA atleast twice.  
 43.	Write a Query to display all the employee’s whose name is having ‘R’ as the second last character. 
 44. 	List all the employee whose name starts with ‘S’. 
 45. 	List all the employee whose name is having letter ‘L’ as second character. 
