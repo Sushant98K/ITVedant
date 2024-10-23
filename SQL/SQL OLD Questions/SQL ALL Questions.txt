@@ -47,8 +47,7 @@ SQL QUESTIONS
 43.	Write a Query to display all the employee’s whose name is having ‘R’ as the second last character. 
 44. List all the employee whose name starts with ‘S’. 
 45. List all the employee whose name is having letter ‘L’ as second character. 
-46. List all the employee whose name is having atleast 2 
-L’s in it. 
+46. List all the employee whose name is having atleast 2 L’s in it. 
 47. 	List all the employee whose name having letter ‘E’ as the last but one character. 
 48. 	List all the employee whose name is having letter ‘R’ in the 3rd position. 
 49. 	List all the employee who are having exactly 5 character in their jobs. 
