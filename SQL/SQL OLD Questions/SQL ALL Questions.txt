@@ -55,7 +55,7 @@ SQL QUESTIONS
 51. List the employee whose comm is NULL. 
 52. List all the employee who don’t have a reporting manager. 
 53. List all the salesman in department number 30. 
-54. 	List all the salesman in department number 30 and having salary greater than 5000. 
+54. List all the salesman in department number 30 and having salary greater than 5000. 
 55. List all the employees whose name starts with ‘S’ or ‘A’. 
 56. 	List all the employees except those who are working in department number 10 and 20. 
 57.	List all the employees whose name doesn’t start with 
