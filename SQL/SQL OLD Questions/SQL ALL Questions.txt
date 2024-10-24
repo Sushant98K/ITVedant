@@ -59,7 +59,6 @@ SQL QUESTIONS
 55. List all the employees whose name starts with ‘S’ or ‘A’. 
 56. List all the employees except those who are working in department number 10 and 20. 
 57.	List all the employees whose name doesn’t start with ‘S’. 
- 
 58.	List all the employees who are having reporting manager in department 10. 
 59. 	Write a Query to display all the details of the employee if their job is having one _ (underscore) in it. 
 60. 	Write a Query to display who are having % in their names. 
