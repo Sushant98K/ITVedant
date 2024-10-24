@@ -57,7 +57,7 @@ SQL QUESTIONS
 53. List all the salesman in department number 30. 
 54. List all the salesman in department number 30 and having salary greater than 5000. 
 55. List all the employees whose name starts with ‘S’ or ‘A’. 
-56. 	List all the employees except those who are working in department number 10 and 20. 
+56. List all the employees except those who are working in department number 10 and 20. 
 57.	List all the employees whose name doesn’t start with 
 ‘S’. 
  
