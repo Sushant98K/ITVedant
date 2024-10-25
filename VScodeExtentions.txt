@@ -18,7 +18,7 @@ Tabnine-ai chat by TabNine
 Tailwind css IntelliSense by TailwindLabs
 vscode-pdf by tomoki1207
 Quokka.js by Wallaby.js
-
+CSS Peek by Pranay Prakash
 
 // setting.json file
 
