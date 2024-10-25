@@ -19,6 +19,8 @@ Tailwind css IntelliSense by TailwindLabs
 vscode-pdf by tomoki1207
 Quokka.js by Wallaby.js
 CSS Peek by Pranay Prakash
+GitLens — Git supercharged by GitKraken
+
 
 // setting.json file
 
