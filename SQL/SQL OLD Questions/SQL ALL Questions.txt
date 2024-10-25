@@ -102,7 +102,7 @@ SQL QUESTIONS
 98.	Write a Query to display the department number which are having more than 4 employee in them. 
 99.	Write a Query to display the max salary for each of the job excluding all the employee whose name end with S. 100.	Write a Query to display the department number which are having more than 9000 as their departmental total salary. 
 101.Write a Query to display department wise highest salary only if the highest salary in between 5000 and 10000 and total salary of department is below 10000. 
-102.	Write a Query to display jobwise total salary in each department only if department number 10, 20 total salary is less than 10000. 
+102.Write a Query to display jobwise total salary in each department only if department number 10, 20 total salary is less than 10000. 
 103.	Write a Query to display average salary of each department by excluding all employees who do not have reporting manager. 
 104.	Write a Query to display max, min, cum, average, commission and salaries for all the department which is having employee hired within 1980 and 1985. 
 105.	Write a Query to display max salary and total salary of each department by considering all the employee whose job is not ‘_’ character in it and total salary of department should not be equal than 5000 and should not be less than or equal to  9000. 
