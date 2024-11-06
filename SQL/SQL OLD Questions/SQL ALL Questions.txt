@@ -105,7 +105,7 @@ SQL QUESTIONS
 102.Write a Query to display jobwise total salary in each department only if department number 10, 20 total salary is less than 10000. 
 103.Write a Query to display average salary of each department by excluding all employees who do not have reporting manager. 
 104.Write a Query to display max, min, cum, average, commission and salaries for all the department which is having employee hired within 1980 and 1985. 
-105.	Write a Query to display max salary and total salary of each department by considering all the employee whose job is not ‘_’ character in it and total salary of department should not be equal than 5000 and should not be less than or equal to  9000. 
+105.Write a Query to display max salary and total salary of each department by considering all the employee whose job is not ‘_’ character in it and total salary of department should not be equal than 5000 and should not be less than or equal to  9000. 
 106.	Write a Query to display all the details of employee whose designation is same as martin. 
 107.	Write a Query to display all the employee who were hired after recruiting miller. 
 108.	Write a Query to display all the detail of employee whose salary is greater than adam’s salary and less than scott’s salary. 
