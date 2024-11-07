@@ -1,0 +1,66 @@
+1. Explain order of execution of SQL.
+    from
+    where
+    group by 
+    having
+    select
+    order by
+    limit
+
+2. What difference between where and having?
+
+3. What is the use of group by?
+
+4. Explain all types of joins in SQL.
+
+5. What are triggers in SQL?
+
+6. What is stored procedures in SQL?
+
+7. Explain all type of window functions?(for example Mainly rank, row_num, dense_rank, lead & lag)
+
+8. What is difference between delete, truncate and drop?
+
+9. What is difference between DDL, DML and DCL?
+
+10. What are aggregate functions and when do we use them? explain with few example.
+
+11. Which is faster between CTE and subquery?
+
+12. What are constraints and type of constraints?
+
+13. Types of keys?
+
+14. Different type of operators?
+
+15. Difference between group by and where?
+
+16. What are views?
+
+17. What is difference between varchar and nvarchar?
+
+18. What is difference between char and nchar?
+
+19. What are index and there types?
+
+20. List the different types of relationships in SQL?
+
+21. Differentiate between UNION and UNION ALL.
+
+22. How many types of clauses in SQL?
+
+23. Difference between primary key and foreign key?
+
+24. Find second highest salary of an employee?
+
+25. Write retation query in SQL?
+
+26. Write year-on-year growth in SQL
+
+27. Write a query for cummulative sum in SQL
+
+28. Difference between function and store procedures in SQL?
+
+29. Do we use variables in views?
+
+30. What are the limitations of views?
