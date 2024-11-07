@@ -8,12 +8,28 @@
     limit
 
 2. What difference between where and having?
+    WHERE: Filters rows before grouping/aggregation.
+    HAVING: Filters groups after aggregation.
 
 3. What is the use of group by?
+    The GROUP BY clause allows SQL to organize data into meaningful groups, which makes it easy to perform calculations and summaries on those groups using aggregate functions. This is highly useful in reporting and data analysis.
 
 4. Explain all types of joins in SQL.
+    INNER JOIN	Returns rows with matching values in both tables.
+    LEFT JOIN	Returns all rows from the left table and matched rows from the right table; unmatched rows in the right table are NULL.
+    RIGHT JOIN	Returns all rows from the right table and matched rows from the left table; unmatched rows in the left table are NULL.
+    FULL JOIN	Returns all rows when there is a match in either table; unmatched rows from one table are NULL.
+    CROSS JOIN	Returns the Cartesian product of the two tables.
+    SELF JOIN	Joins the table to itself for hierarchical relationships.
+    NATURAL JOIN Returns all matching matched rows
 
 5. What are triggers in SQL?
+    A trigger in SQL is a special type of stored procedure that automatically executes, or “fires,” in response to specific events on a table or view. Triggers are commonly used to enforce business rules, automatically update related data, audit changes, or maintain the integrity of data.
+
+    After insert/update/delete
+    Before insert/update/delte
+
+
 
 6. What is stored procedures in SQL?
 
