@@ -1,9 +1,10 @@
 import math
 
 radius = 10
+pi = 3.14
 
-area = math.pi * (radius ** 2)
-perimeter = 2 * math.pi * radius
+area = pi * radius * radius
+perimeter = 2 * pi * radius
 
-print(round(area))
+print(area)
 print(perimeter)
