@@ -21,3 +21,15 @@ CREATE VIEW EmployeeDetails AS
 SELECT id, first_name, last_name, salary
 FROM employee
 WHERE salary > (SELECT avg(salary) FROM employee);
+
+-- Assignment 11 Question 4
+
+CREATE VIEW EmployeeDet AS
+SELECT 
+    e.id, e.first_name, e.last_name, e.salary, d.dept_name
+FROM 
+    employee e
+JOIN 
+    Department d 
+ON 
+    e.dept_id = d.id;
