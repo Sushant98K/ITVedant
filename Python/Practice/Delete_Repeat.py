@@ -5,7 +5,6 @@ og_list = [10,21,11,25,32,33,10,35,45,68,10,35,45,12,21]
 '''
                 wrong
 
-
 for i in range (0, len(list)):
     for j in range(i+1,len(list)):
         if list[i] == list[j]:
