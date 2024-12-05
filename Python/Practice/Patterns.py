@@ -90,12 +90,21 @@ for i in range (1,6):
    * *
     * 
 '''
+n=5
 
-for i in range(1,6):
-    for space in range(5,i-1,-1):
-        print(' ', end = ' ')
-    for j in range(1,i+1):
-        print('*', end = ' ')
-    for j in range(1,i):
-        print('*', end = ' ')
+for i in range(n):
+    for space in range(i,n):
+        print('',' ', end=' ')
+    for l_j in range(i+1):
+        print('*', end=' ')
+    # for r_j in range(i):
+    #     print('*', end=' ')
+    print()
+for i in range(n):
+    for space in range(i+1):
+        print('',' ', end=' ')
+    for l_j in range(i,n):
+        print('*', end=' ')
+    # for r_j in range(i+1,n):
+    #     print('*', end=' ')
     print()
