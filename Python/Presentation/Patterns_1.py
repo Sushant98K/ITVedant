@@ -113,7 +113,6 @@ for i in range(n):
       * * * * *
     * * * * * * *
   * * * * * * * * *
-  * * * * * * * * *
     * * * * * * *
       * * * * *
         * * *
@@ -127,7 +126,7 @@ for i in range(n):
     for r_j in range(i+1):
         print('*',end = ' ')
     print()
-for i in range(n):
+for i in range(n-1):
     for space in range(i+1):
         print(' ', end=' ')
     for l_j in range(i+1,n):
@@ -143,7 +142,6 @@ for i in range(n):
       * * * * *
         * * *
           *
-          *
         * * *
       * * * * *
     * * * * * * *
@@ -157,7 +155,7 @@ for i in range(n):
     for r_j in range(i,n):
         print('*', end=' ')
     print()
-for i in range(n):
+for i in range(n-1):
     for space in range(i,n):
         print(' ', end=' ')
     for l_j in range(i):
