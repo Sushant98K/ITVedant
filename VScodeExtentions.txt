@@ -100,3 +100,53 @@ GitLens — Git supercharged by GitKraken
   "git.confirmSync": false,
   "git.autofetch": true
 }
+
+-------------------------------------------------------
+settings>>snippets>>html.json
+-------------------------------------------------------
+
+"HTML Boilerplate": {
+        "prefix": "!html",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "    <title>${1:Document}</title>",
+            "    <link rel=\"stylesheet\" href=\"${2:style.css}\">",
+            "</head>",
+            "<body>",
+            "    ${3:}",
+            "    ${3:}",
+            "    ${3:}",
+            "    <script src=\"${4:script.js}\"></script>",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Insert a basic HTML template"
+    }
+
+-------------------------------------------------------
+settings>>snippets>>css.json
+-------------------------------------------------------
+
+"CSS Boilerplate": {
+        "prefix": "!css",
+        "body": [
+            "@import url(https://db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy-Regular);",
+            "",
+            "* {",
+            "    margin: 0;",
+            "    padding: 0;",
+            "    box-sizing: border-box;",
+            "    font-family: \"Gilroy-Regular\";",
+            "}",
+            "",
+            "html, body {",
+            "    height: 100%;",
+            "    width: 100%;",
+            "}"
+        ],
+        "description": "Insert a CSS boilerplate with Gilroy font"
+    }
