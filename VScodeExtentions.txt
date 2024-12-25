@@ -1,28 +1,48 @@
+-------------------------------------------------------
+Extensions and authors
+-------------------------------------------------------
+
 Auto rename tag by Jun Han
+autopep8 by Microsoft
 Better Comments by Aaron Bond
+BLACKBOXAI #1 Coding Agent by BLACKBOX AI
+BLACKBOXAI Agent by BLACKBOX AI
 Code Runner by Jun Han
 code Spell Checker by Street Side Software
 CodeSnap by adpyke
+CSS Peek by Pranay Prakash
+Djaneiro - Django Snippets by Scott Barkman
+Django by Baptiste Darthenay
+Django by Roberth Solís
+Django Template by bibhasdn
+Docker by Microsoft
 Draw.io Integration by Henning Dieterichs
 Error Lens by Alexander
 ES7+ React/Redux/React-Native snippests by dsznajder
+GitLens by GitKraken
 Headwind by Ryan Heybourn
 Helium Icon Theme by Helgard Richard Ferreira
 Live Server by Ritwick Dey
 Material Theme by Equinusocio
 Prettier - code formatter by Prettier
 Prisma by Prisma
+Pylance by Microsoft
+Python by Microsoft
+Python Debugger by Microsoft
+Python Indent by Kevin Rose
+Quokka.js by Wallaby.js
 readme-preview by Manish Sencha 
 SVG-Viewer by Dheovani
 Tabnine-ai chat by TabNine
 Tailwind css IntelliSense by TailwindLabs
 vscode-pdf by tomoki1207
-Quokka.js by Wallaby.js
-CSS Peek by Pranay Prakash
-GitLens — Git supercharged by GitKraken
 
 
+
+-------------------------------------------------------
 // setting.json file
+-------------------------------------------------------
+
 
 {
   "editor.formatOnPaste": true,
@@ -98,7 +118,16 @@ GitLens — Git supercharged by GitKraken
   "tabnine.experimentalAutoImports": true,
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  "git.autofetch": true
+  "git.autofetch": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "quokka.showOutputOnStart": true,
+  "hediet.vscode-drawio.resizeImages": null,
+  "explorer.confirmDelete": false,
+  "workbench.editor.empty.hint": "hidden",
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  }
 }
 
 -------------------------------------------------------
