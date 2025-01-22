@@ -5,10 +5,7 @@ Extensions and authors
 Auto rename tag by Jun Han
 autopep8 by Microsoft
 Better Comments by Aaron Bond
-BLACKBOXAI #1 Coding Agent by BLACKBOX AI
-BLACKBOXAI Agent by BLACKBOX AI
 Code Runner by Jun Han
-code Spell Checker by Street Side Software
 CodeSnap by adpyke
 CSS Peek by Pranay Prakash
 Djaneiro - Django Snippets by Scott Barkman
@@ -30,12 +27,13 @@ Pylance by Microsoft
 Python by Microsoft
 Python Debugger by Microsoft
 Python Indent by Kevin Rose
-Quokka.js by Wallaby.js
+React Hooks Snippets by Al Duncanson
 readme-preview by Manish Sencha 
 SVG-Viewer by Dheovani
 Tabnine-ai chat by TabNine
 Tailwind css IntelliSense by TailwindLabs
 vscode-pdf by tomoki1207
+VSCode React Refactor by planbcoding
 
 
 
