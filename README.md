@@ -43,7 +43,7 @@ This repository serves as a helpful resource for:
 
 Feel free to clone🪞, fork 🔖, or star ⭐ this repository if you find it helpful. Let’s make coding more fun and accessible! 💪
 
-📬 **Contributions are welcome**! If you want to add your own questions or solutions, feel free to submit a pull request.
+📬 **Contributions are welcome**! If you want to add your own questions or solutions, feel free to submit a pull request.....
 
 ---
 
