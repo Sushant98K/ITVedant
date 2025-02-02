@@ -7,7 +7,6 @@ autopep8 by Microsoft
 Better Comments by Aaron Bond
 Code Runner by Jun Han
 CodeSnap by adpyke
-CSS Peek by Pranay Prakash
 Djaneiro - Django Snippets by Scott Barkman
 Django by Baptiste Darthenay
 Django by Roberth Solís
