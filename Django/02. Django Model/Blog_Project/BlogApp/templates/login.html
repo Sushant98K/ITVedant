@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="d-flex vh-100 justify-content-center align-items-center bg-light">
+    <div class="card p-4 shadow-lg" style="width: 420px;">
+        <h2 class="text-center mb-3">Login</h2>
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} text-center">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+        <form method="POST" action="{% url 'login' %}">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="id_username" class="form-label">Username</label>
+                <input type="text" name="username" id="id_username" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="id_password" class="form-label">Password</label>
+                <input type="password" name="password" id="id_password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-success w-100">Login</button>
+        </form>
+        <div class="mt-4 text-center">
+            <a href="{% url 'register' %}" class="text-secondary">Already have an account? <b>Register Now!</b></a><br>
+            <a href="" class="text-secondary">Go To HOME page <b>HOME!</b></a>
+        </div>
+    </div>
+</body>
+</html>
