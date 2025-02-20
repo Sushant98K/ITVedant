@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+
+    <style>
+        body{margin-top:20px;
+background:#DCDCDC;
+}
+.pricing-content{position:relative;}
+.pricing_design{
+    position: relative;
+    margin: 0px 15px;
+}
+
+.iconstyle{
+    position: relative; 
+    width: 25px;
+    top: -3px; 
+    height: 25px; 
+    right: 5px;
+}
+
+
+.pricing_design .single-pricing{
+    background:#554c86;
+    padding: 60px 40px;
+    border-radius:30px;
+    box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
+    position: relative;
+    z-index: 1;
+}
+.pricing_design .single-pricing:before{
+    content: "";
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px 18px 190px 18px;
+    border: 1px solid #eee;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.price-head{}
+.price-head h2 {
+	margin-bottom: 20px;
+	font-size: 26px;
+	font-weight: 600;
+}
+.price-head h1 {
+	font-weight: 600;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.price-head span{}
+
+.single-pricing ul{list-style:none;margin-top: 30px;}
+.single-pricing ul li {
+	line-height: 36px;
+}
+.single-pricing ul li i {
+	background: #554c86;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	border-radius: 30px;
+	font-size: 11px;
+	text-align: center;
+	line-height: 20px;
+	margin-right: 6px;
+}
+.pricing-price{}
+
+.price_btn {
+	background: #554c86;
+	padding: 10px 30px;
+	color: #fff;
+	display: inline-block;
+	margin-top: 20px;
+	border-radius: 2px;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+.price_btn:hover{background:#0aa1d6;}
+a{
+text-decoration:none;    
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.section-title h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 0;
+    position: relative;
+    text-transform: capitalize;
+}
+    </style>
+
+
+
+
+</head>
+<body>
+    <section id="pricing" class="pricing-content section-padding">
+	<div class="container">					
+		<div class="section-title text-center">
+			<h2>Pricing Plans</h2>
+			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+		</div>				
+		<div class="row text-center">									
+			<div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+				<div class="pricing_design">
+					<div class="single-pricing">
+						<div class="price-head">		
+							<h2>Starter</h2>
+							<h1>₹99</h1>
+							<span>/Monthly</span>
+						</div>
+						<ul>
+							<li><img class="iconstyle" src="https://img.icons8.com/?size=100&id=sz8cPVwzLrMP&format=png&color=000000" alt="">Post <b>30</b> blogs/month</li>
+							<li><img class="iconstyle" src="https://img.icons8.com/?size=100&id=T9nkeADgD3z6&format=png&color=000000" alt="">Turn Readers into Subsribers</li>
+							<li><img class="iconstyle" src="https://img.icons8.com/?size=100&id=T9nkeADgD3z6&format=png&color=000000" alt="">Add Paywalls to selected posts</li>
+							<li><img class="iconstyle" src="https://img.icons8.com/?size=100&id=T9nkeADgD3z6&format=png&color=000000" alt="">Setup Payment Schedules</li>
+							
+						</ul>
+						<div class="pricing-price">
+							
+						</div>
+						{% comment %} <a href="#" class="price_btn">Order Now</a> {% endcomment %}
+						<form id="paymentForm">
+							<input type="hidden" name="amount" value="99">
+							<button type="button" id="payBtn" class="price_btn">Order Now</button>
+						</form>
+					</div>
+				</div>
+			</div><!--- END COL -->	
+			<div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+				<div class="pricing_design">
+					<div class="single-pricing">
+						<div class="price-head">		
+							<h2>Personal</h2>
+							<h1 class="price">₹199</h1>
+							<span>/Monthly</span>
+						</div>
+						<ul>
+							<li><img class="iconstyle" src="https://img.icons8.com/?size=100&id=sz8cPVwzLrMP&format=png&color=000000" alt="">Post <b>100</b> blogs/month</li>
+							<li><img class="iconstyle" src="https://img.icons8.com/?size=100&id=sz8cPVwzLrMP&format=png&color=000000" alt="">Turn Readers into Subsribers</li>
+							<li><img class="iconstyle" src="https://img.icons8.com/?size=100&id=T9nkeADgD3z6&format=png&color=000000" alt="">Add Paywalls to selected posts</li>
+							<li><img class="iconstyle" src="https://img.icons8.com/?size=100&id=T9nkeADgD3z6&format=png&color=000000" alt="">Setup Payment Schedules</li>
+						</ul>
+						<div class="pricing-price">
+							
+						</div>
+						<form id="paymentForm">
+							<input type="hidden" name="amount" value="199">
+							<button type="button" id="payBtn" class="price_btn">Order Now</button>
+						</form>
+					</div>
+				</div>
+			</div><!--- END COL -->	
+			<div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+				<div class="pricing_design">
+					<div class="single-pricing">
+						<div class="price-head">		
+							<h2>Ultimate</h2>
+							<h1 class="price">₹299</h1>
+							<span>/Monthly</span>
+						</div>
+						<ul>
+							<li><img class="iconstyle" src="https://img.icons8.com/?size=100&id=sz8cPVwzLrMP&format=png&color=000000" alt="">Post <b>unlimited</b> blogs/month</li>
+							<li><img class="iconstyle" src="https://img.icons8.com/?size=100&id=sz8cPVwzLrMP&format=png&color=000000" alt="">Turn Readers into Subsribers</li>
+							<li><img class="iconstyle" src="https://img.icons8.com/?size=100&id=sz8cPVwzLrMP&format=png&color=000000" alt="">Add Paywalls to selected posts</li>
+							<li><img class="iconstyle" src="https://img.icons8.com/?size=100&id=sz8cPVwzLrMP&format=png&color=000000" alt="">Setup Payment Schedules</li>
+						</ul>
+						<div class="pricing-price">
+							
+						</div>
+						<form id="paymentForm">
+							<input type="hidden" name="amount" value="299">
+							<button type="button" id="payBtn" class="price_btn">Order Now</button>
+						</form>
+					</div>
+				</div>
+			</div><!--- END COL -->			  
+		</div><!--- END ROW -->
+	</div><!--- END CONTAINER -->
+</section>
+
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+  document.getElementById('payBtn').onclick = function() {
+    fetch("{% url 'create_payment' %}", {
+      method: "POST",
+      headers: {
+        'X-Requested-With': 'XMLHttpRequest',
+        'X-CSRFToken': '{{ csrf_token }}'
+      },
+      body: new URLSearchParams({
+        'amount': 99
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
+      var options = {
+        "key": "{{ settings.RAZORPAY_KEY_ID }}",
+        "amount": data.amount,
+        "currency": data.currency,
+        "name": "Zamazor",
+        "description": "Plan Purchase",
+        "order_id": data.id,
+        "handler": function(response){
+          alert('Payment successful: ' + response.razorpay_payment_id);
+          window.location.href = "{% url 'payment_success' %}";
+        },
+        "prefill": {
+          "name": "{{ user.username }}",
+          "email": "{{ user.email }}"
+        },
+        "theme": {
+          "color": "#3399cc"
+        }
+      };
+      var rzp = new Razorpay(options);
+      rzp.open();
+    })
+    .catch(error => console.error('Error:', error));
+  };
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
