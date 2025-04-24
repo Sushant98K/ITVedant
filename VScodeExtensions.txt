@@ -17,12 +17,15 @@ Docker DX by Docker
 Draw.io Integration by Henning Dieterichs
 Error Lens by Alexander
 ES7+ React/Redux/React-Native snippests by dsznajder
+ESLint by Microsoft
 GitLens by GitKraken
 Headwind by Ryan Heybourn
 Helium Icon Theme by Helgard Richard Ferreira
+JavaScript and TypeScript Nightly by Microsoft
 Live Server by Ritwick Dey
 Postman by Postman
 Prettier - code formatter by Prettier
+Pretty TypeScript Errors by yoavbls
 Prisma by Prisma
 Pylance by Microsoft
 Python by Microsoft
@@ -33,7 +36,6 @@ React Hooks Snippets by Al Duncanson
 readme-preview by Manish Sencha 
 SQLite Viewer by Florian Klamfer
 SVG-Viewer by Dheovani
-Tabnine-ai chat by TabNine
 Tailwind css IntelliSense by TailwindLabs
 Tailwind Docs by Austen Cameron
 Tailwind Fold by Stivo
